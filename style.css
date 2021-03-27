@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+padding: 0;
+font-family: century gothic;
+
+}
+header{
+background-image: url(IMG_20201224_164652.jpg);
+background-repeat: no-repeat;
+background-size: 1500px 1000px;   
+height: 100vh;;
+background-position:center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+color: black;
+padding: 5px 20px;
+border: 1px solid transparents;
+transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: gold;
+color:black;
+
+}
+.main{
+    max-width: 1200px;
+margin: auto;
+}
+
+.tital{
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.tital h1{
+    color: lightblue;
+font-size: 70px;
+
+}
+.button{ position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+text-decoration: darkblue;
+}
+
+    .btn{
+    border: 1px solid lightblue;
+padding: 10px 30px;
+color: darkorange;
+text-decoration: none;
+transition: 0.6s ease;
+}
+.btn:hover{
+background-color: deeppink ;
+color:black;
+}
